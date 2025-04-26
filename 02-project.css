@@ -1,0 +1,49 @@
+body{
+    height:500vh;
+    box-sizing: border-box;
+
+}
+.container{
+    box-sizing:border-box;
+    padding:20px;
+    height: 85%;
+    border:2px red solid;
+}
+.green,.red,.yellow{
+    font-size:1.5rem;
+    height:100px;
+    width:50%;
+    position:sticky;
+    top:0;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    margin:auto;
+    border-radius:6rem;
+    border:1px lightblue solid;
+    margin-top:100px;
+    
+
+}
+.green{
+    background-color:green;
+
+
+}
+
+
+.red{
+    background-color:red;
+    
+
+}
+.yellow{
+    background-color:yellow;
+    margin-top:50%;
+    z-index:-1;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
